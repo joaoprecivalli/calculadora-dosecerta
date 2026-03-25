@@ -128,7 +128,7 @@ def main():
         
         rel.append("-" * 45)
         rel.append(f"Rendimento Misturador: {ha_por_misturada:.2f} ha / batida")
-        rel.append(f"Misturadas Totais:    {math.ceil(area_total / ha_por_misturada)}")
+        rel.append(f"Misturas Totais:    {math.ceil(area_total / ha_por_misturada)}")
 
         # Exibição
         final_text = "\n".join(rel)
