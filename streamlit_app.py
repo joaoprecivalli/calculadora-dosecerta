@@ -6,7 +6,7 @@ from datetime import datetime
 st.set_page_config(page_title="Pelican Pro - Calculadora", page_icon="🛸", layout="wide")
 
 def main():
-    st.title("🛸 Pelican Pro: Gestão de Calda")
+    st.title("🛸 Dose certa: Gestão de Calda")
     st.markdown("---")
 
     # --- SIDEBAR: CONFIGURAÇÕES DE HARDWARE E ÁREA ---
