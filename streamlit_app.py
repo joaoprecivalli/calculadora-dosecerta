@@ -59,7 +59,7 @@ def main():
     st.divider()
 
     # --- PROCESSAMENTO E RELATÓRIO ---
-    if st.button("📊 GERAR PLANO DE CARGA", type="primary", use_container_width=True):
+    if st.button("📊 GERAR RELATÓRIO DE MISTURA", type="primary", use_container_width=True):
         if not st.session_state.produtos:
             st.error("Adicione produtos para realizar o cálculo.")
             return
