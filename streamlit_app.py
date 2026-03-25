@@ -3,7 +3,7 @@ import math
 from datetime import datetime
 
 # Configuração da Interface
-st.set_page_config(page_title="Pelican Pro - Calculadora", page_icon="🛸", layout="wide")
+st.set_page_config(page_title="Dose certa - Calculadora", page_icon="🛸", layout="wide")
 
 def main():
     st.title("🛸 Dose certa: Gestão de Calda")
